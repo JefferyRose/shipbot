@@ -26,7 +26,7 @@ def search_data(query):
 
 
 # Main page title
-st.title('Star Hangar Ship Store')
+st.title('Ship Store')
 
 # Search bar
 search_query = st.text_input("Search for a ship", value="", key="search_query", on_change=lambda: None)
